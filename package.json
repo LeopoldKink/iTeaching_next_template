@@ -1,5 +1,5 @@
 {
-  "name": "iteaching-next-template",
+  "name": "iteaching-next",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material-nextjs": "^5.15.11",
+    "@phosphor-icons/react": "^2.1.5",
+    "dayjs": "^1.11.11",
+    "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.4"
+    "recharts": "^2.12.7"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.4"
+    "eslint-config-next": "14.2.3",
+    "typescript": "^5"
   }
 }
