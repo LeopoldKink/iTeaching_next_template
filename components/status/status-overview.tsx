@@ -25,6 +25,14 @@ import { dayjs } from '@/lib/dayjs';
 import { Circle } from '@phosphor-icons/react';
 import { chateauGreen, nevada, tomatoOrange } from '@/styles/farben/farben';
 
+// {
+//   id: 'EV-004',
+//   title: 'Klassenzimmer 5b',
+//   description: 'ecke hinten links',
+//   running: true,
+//   lastUpdated: new Date(),
+// } --> Beispiel Datensatz
+
 export interface StatusOverview {
   id: string;
   title: string;

@@ -14,6 +14,9 @@ import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxi
 import { NoSsr } from '@/components/core/no-ssr';
 import { california, chateauGreen, kepple, neonBlue, tomatoOrange } from '@/styles/farben/farben';
 
+// { name: 'Jul', v1: 38, v2: 19 } --> Beispiel Datensatz 
+// v1: Dieses Jahr v2: Letztes Jahr
+
 const bars = [
   { name: 'Dieser Monat', dataKey: 'v1', color: tomatoOrange.light },
   { name: 'Letzter Monat', dataKey: 'v2', color: neonBlue.dark },

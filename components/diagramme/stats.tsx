@@ -20,6 +20,9 @@ import { california, chateauGreen, kepple, neonBlue, tomatoOrange } from '@/styl
 import { NoSsr } from '@/components/core/no-ssr';
 import { Clock as ClockIcon } from '@phosphor-icons/react/dist/ssr/Clock';
 
+// { name: 'Jan 1', v1: 1, v2: -3 } --> Beispiel Datensatz
+// v1: Schule v2: Aktuelle Temperatur
+
 const lines = [
   { name: 'Schule', dataKey: 'v1', color: california.light },
   { name: 'Aktuelle Temperatur', dataKey: 'v2', color: kepple.light },
