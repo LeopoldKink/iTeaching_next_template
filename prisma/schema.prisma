@@ -19,5 +19,11 @@ model Messung {
   reale_luftfeuchtigkeit Float
 }
 
+model TestData {
+  id Int @id @default(autoincrement())
+  name String
+  age Int
+}
+
 //npx prisma migrate dev -- Um eine neue Migration zu erstellen
 //npx prisma db pull -- Um die Datenbank zu aktualisieren
